@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhai+2&family=Comforter&family=Corinthia&family=Rubik&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar-brand{
+    font-family: 'Corinthia', cursive!important;
+    font-size: 30px!important;
+    font-weight: bold;
+}
+
+.nav-item a{
+    color: black!important;
+}
+.nav-item a:hover{
+    font-weight: bold;
+}
+.pricing{
+    width: 100%;
+    /* height: 90vh; */
+    padding: 50px;
+    position: relative;
+}
+.pricing::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    z-index: -1;
+    background: linear-gradient(160deg, #1295b6 55%, #fff 0%);
+}
+.price{
+    color: red;
+    font-size: 25px!important;
+}
+.card{
+    transition: 0.4s ease;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.9);
+}
+.card-header{
+    font-size: 30px!important;
+    background-color: rgb(224, 220, 220);
+}
+.card-footer{
+    font-size: 20px!important;
+    padding: 20px!important;
+    background-color: rgb(224, 220, 220);
+}
+.card-footer a{
+   
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+}
+.card-footer a:hover{
+    border: 1px solid black;
+    border-radius: 100px;
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+}
+
+.card-body li{
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* ********trainers********* */
+.box{
+    width: 300px;
+    height: 470px;
+    /* border: 0.3px solid black; */
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+    padding: 20px;
+    margin: 15px;
+}
+.box:hover{
+    /* box-shadow: 0,0,20px,0 rgb(0,0,0,0.9); */
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.9);
+}
+.box img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.box h3{
+    margin-top: 10px;
+}
+.box a{
+   display: block;
+    margin: auto;
+    width: 60%;
+    font-size: 20px;
+    padding: 12px 35px;
+    outline: none;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+    border-radius: 100px;
+}
+.box a:hover{
+    border: 1px solid black;
+    border-radius: 100px;
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+}
+
+/* ************about********** */
+
+.boxes{
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+    margin: 20px;
+}
+.boxes:hover{
+    background-color: rgb(158, 154, 154);
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.9);
+}
+.fas{
+    font-size: 5rem;
+    color: black;  
+}
+.fass{
+    margin-right: 10px;
+    font-size: 2rem;
+    color: black;  
+}
+.h1{
+    font-size: 4rem;
+}
+
+.con{
+    width: 70%;
+    margin: auto;
+}
+/* .con .btn{
+    width: 20%!important;
+} */
+.con .btn:hover{
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.6);
+}
